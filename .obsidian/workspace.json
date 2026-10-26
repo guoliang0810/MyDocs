@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "582214d8b69426ed",
+        "id": "097e5743f0acd582",
         "type": "tabs",
         "children": [
           {
-            "id": "092fefa60fecf84e",
+            "id": "41c09708f04fa718",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -123,8 +125,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -159,59 +161,61 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "zk-prefixer:创建时间戳笔记": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "092fefa60fecf84e",
+  "active": "d5929a8ddd38b69d",
   "lastOpenFiles": [
-    "100-AI-Agent-工程/150-大厂落地/OpenAI-Operator.md",
-    "100-AI-Agent-工程/150-大厂落地/Microsoft-Autonomous-Agents.md",
-    "100-AI-Agent-工程/150-大厂落地/Google-Gemini-Eco.md",
-    "100-AI-Agent-工程/140-前沿论文/Paper-List-2026.md",
-    "100-AI-Agent-工程/140-前沿论文/Paper-List-2025.md",
-    "100-AI-Agent-工程/130-开发框架/LangGraph-vs-CrewAI.md",
-    "100-AI-Agent-工程/110-基础理论/Prompt-Engineering-Advanced.md",
-    "100-AI-Agent-工程/110-基础理论/LLM原理与局限性.md",
-    "100-AI-Agent-工程/020-智泊AI课程笔记/README.md",
-    "100-AI-Agent-工程/020-智泊AI课程笔记/03-LangChain开发实战/01-LangChain核心组件.md",
-    "100-AI-Agent-工程/020-智泊AI课程笔记/02-RAG检索增强生成/01-RAG架构与实战.md",
-    "100-AI-Agent-工程/00-Agent知识体系索引.md",
-    "搜索.base",
-    "未命名.md",
-    "未命名 3.base",
-    "接口文档.md",
-    "300-培训教学/01-课程课件/python_课件/day13 内置函数和生成器及推导式/笔记/day13.md",
-    "未命名 1.base",
-    "未命名 2.base",
-    "300-培训教学/01-课程课件/python_课件/day12 函数高级/笔记/day12.md",
-    "300-培训教学/01-课程课件/python_课件/day11 函数进阶/笔记/day11.md",
-    "300-培训教学/01-课程课件/python_课件/day10 函数基础/笔记/day10.md",
-    "300-培训教学/01-课程课件/python_课件/day09 文件操作相关/笔记/day09.md",
-    "300-培训教学/01-课程课件/python_课件/day03 Python基础/笔记/day03 Python基础.md",
-    "300-培训教学/01-课程课件/python_课件/day03 Python基础/笔记/day03 作业答案讲解.md",
-    "300-培训教学/01-课程课件/python_课件/day02 快速上手/笔记和作业答案/day02 快速上手.md",
-    "300-培训教学/01-课程课件/python_课件/day02 快速上手/笔记和作业答案/day02 作业答案.md",
-    "300-培训教学/01-课程课件/python_课件/day01 计算机基础和环境搭建/笔记和作业答案/day01 作业讲解.md",
-    "300-培训教学/01-课程课件/python_课件/day01 计算机基础和环境搭建/笔记和作业答案/day01 计算机基础和环境搭建.md",
-    "300-培训教学/01-课程课件/python_课件/day00 学前必备/学前必备.md",
-    "cleanup_and_move.ps1",
-    "300-培训教学/01-课程课件/测试开发核心技术/00-开篇与导读",
-    "300-培训教学/01-课程课件/测试开发核心技术/09-测试管理与面试",
-    "300-培训教学/01-课程课件/测试开发核心技术/08-持续集成与DevOps",
-    "300-培训教学/01-课程课件/测试开发核心技术/07-数据库技术",
-    "300-培训教学/01-课程课件/测试开发核心技术/06-接口测试",
+    "900-私密-勿公开/欠钱资料/0609-材料包使用说明（必看！）.pdf",
+    "900-私密-勿公开/欠钱资料/0608-关于使用借贷宝工具所签署协议的法律效力论述.pdf",
+    "900-私密-勿公开/欠钱资料/0607-原告送达地址确认书.docx",
+    "900-私密-勿公开/欠钱资料/0605-借贷宝工具情况说明.pdf",
+    "900-私密-勿公开/欠钱资料/0604-诉讼指南（请仔细阅读！非常重要！）.pdf",
+    "900-私密-勿公开/欠钱资料/0603-诉讼时效中断证明01.pdf",
+    "900-私密-勿公开/欠钱资料/0602-欠条参考判例.zip",
+    "900-私密-勿公开/欠钱资料/0401-借贷宝营业执照.png",
+    "900-私密-勿公开/欠钱资料/0065-欠条记录明细表.pdf",
+    "900-私密-勿公开/欠钱资料/0060-欠条协议.pdf",
+    "900-私密-勿公开/欠钱资料/0040-债权情况说明.docx",
+    "900-私密-勿公开/欠钱资料/0038-起诉书.docx",
+    "800-个人资料/my的简历.md",
+    "800-个人资料/个人简历--刘国亮.md",
+    "README.md",
+    "300-培训教学/03-师资与学员/翰泊-简历/张文曦-简历模板.md",
+    "600-随记日记/Drawing 2026-10-26 09.39.md",
+    "300-培训教学/02-学校运营/20221206-运营记录.md",
+    "300-培训教学/02-学校运营/学校宣传/自强教育（郑州）线下班常见问题汇总.md",
+    "300-培训教学/02-学校运营/学校宣传/计算机培训机构大学宣讲招生ppt框架.md",
+    "300-培训教学/02-学校运营/课程大纲/自动化测试框架要求.md",
+    "300-培训教学/02-学校运营/课程大纲/实训项目验收答辩标准.md",
+    "300-培训教学/02-学校运营/课程大纲/全栈软件测试大纲.md",
+    "300-培训教学/02-学校运营/抖音文案/AI脚本提示.md",
+    "300-培训教学/02-学校运营/抖音文案/抖音脚本公式.md",
+    "300-培训教学/02-学校运营/电销要求/电销确认条件.md",
+    "300-培训教学/01-课程课件/node操作/obsidian插件配置.md",
+    "300-培训教学/01-课程课件/mysql数据库基础/第14章_视图.md",
+    "300-培训教学/01-课程课件/mysql数据库基础/第15章_存储过程与函数.md",
+    "300-培训教学/01-课程课件/mysql数据库基础/第16章_变量、流程控制与游标.md",
+    "300-培训教学/01-课程课件/mysql数据库基础/第18章_MySQL8其它新特性.md",
+    "300-培训教学/01-课程课件/mysql数据库基础/第17章_触发器.md",
+    "300-培训教学/01-课程课件/linux系统/05-容器化与云原生/01-Docker底层原理.md",
+    "300-培训教学/01-课程课件/linux系统/03-系统内核与性能调优/01-Linux系统性能分析方法论.md",
+    "300-培训教学/01-课程课件/linux系统/02-Shell编程进阶/01-文本处理三剑客实战.md",
+    "300-培训教学/01-课程课件/linux系统/01-基础入门/07-文件和目录常用命令.md",
+    "300-培训教学/01-课程课件/linux系统/01-基础入门/06-Linux 终端命令格式.md",
+    "800-个人资料/欠钱资料/0401-借贷宝营业执照.png",
     "300-培训教学/02-学校运营/assets/20221206-运营记录.png",
     "300-其他记录/folder/Pasted image 20221206001722.png",
     "200-技术相关/面试相关/面试辅导/folder/第0讲.png",
@@ -219,8 +223,6 @@
     "800-Excalidraw/Drawing 2024-02-15 15.05.svg",
     "200-技术相关/mysql数据库基础/images/1554910994523.png",
     "700-附件/images/Pasted image 20221117161523.png",
-    "200-课件相关/面试相关/面试/folder/第0讲.png",
-    "800-图片画布/Drawing 2023-06-15 19.06.png",
-    "700-附件/Pasted image 20221122202413.png"
+    "200-课件相关/面试相关/面试/folder/第0讲.png"
   ]
 }

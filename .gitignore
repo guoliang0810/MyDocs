@@ -1,0 +1,44 @@
+# ============================================
+# MyDocs — 私有知识库忽略规则
+# ============================================
+
+# --- 私密材料：债务、协议、身份信息等法律文件 ---
+# 严禁进入版本控制与任何远端仓库
+900-私密-勿公开/
+**/欠钱资料/
+**/*展期协议*
+**/*销账协议*
+**/*注册信息*
+**/*起诉书*
+**/*债权情况说明*
+**/*欠条*
+**/*证据目录*
+
+# --- Python 生态 ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+
+# --- Obsidian 运行时状态（频繁变动，不入版本控制）---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
+
+# --- 系统与临时文件 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+~$*

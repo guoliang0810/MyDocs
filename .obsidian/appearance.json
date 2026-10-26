@@ -3,5 +3,6 @@
   "theme": "moonstone",
   "nativeMenus": true,
   "baseFontSize": 13,
-  "cssTheme": "Blue Topaz"
+  "cssTheme": "Blue Topaz",
+  "baseFontSizeAction": true
 }

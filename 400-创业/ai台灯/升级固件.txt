@@ -1,6 +1,0 @@
-python -m http.server
-root
-NSD123dev
-
-chmod +x *
- /mnt/mtd/nsd/ai  到这个目录下  把文件全部删除 
