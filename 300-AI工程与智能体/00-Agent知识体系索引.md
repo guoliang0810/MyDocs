@@ -19,14 +19,14 @@ updated: 2026-10-26
 |---|---|---|
 | [[100-物理AI产品与领域/020-领域知识/LLM在物理仿真中的角色边界]] | ⭐ **先读这个**。LLM 做什么、绝不做什么、数值溯源强制机制 | ✅ 现行 |
 | [[100-物理AI产品与领域/020-领域知识/代理模型与神经算子工程化]] | ⭐ DeepONet/FNO 工程失效模式、交付前十项验证、LLM-for-CAD | ✅ 现行 |
-| [[010-基础理论/LLM原理与局限性]] | Next-token 本质、三类局限（幻觉/算术/指令衰减） | ✅ 有效 |
-| [[010-基础理论/Prompt-Engineering-Advanced]] | CoT / ReAct / Few-Shot / DSPy | ⚠️ DSPy 归因已修正为 2023 |
-| [[040-框架选型/LangGraph-vs-CrewAI]] | 三框架选型判据 | ⚠️ 选型结论需重写 |
-| [[030-实战笔记/01-大模型基础与Prompt/01-LLM核心原理]] | Transformer、预训练-SFT-RLHF、模型对比 | ⚠️ 模型表需按 2026 重列 |
-| [[030-实战笔记/01-大模型基础与Prompt/02-Prompt工程进阶]] | CRISPE 框架、注入防范、结构化 Prompt | ✅ 有效 |
-| [[030-实战笔记/02-RAG检索增强生成/01-RAG架构与实战]] | Naive RAG、混合检索、Rerank、HyDE | ⚠️ Embedding 表需更新 |
-| [[030-实战笔记/03-LangChain开发实战/01-LangChain核心组件]] | Model I/O / Retrieval / Chains / Memory | 🔴 **代码 API 全部已废弃** |
-| [[020-DeerFlow课程包/README]] | ⭐ **全库最高价值资产**。21 天智能体工程训练体系 | ✅ 现行 |
+| [[300-AI工程与智能体/010-基础理论/LLM原理与局限性]] | Next-token 本质、三类局限（幻觉/算术/指令衰减） | ✅ 有效 |
+| [[300-AI工程与智能体/010-基础理论/Prompt-Engineering-Advanced]] | CoT / ReAct / Few-Shot / DSPy | ⚠️ DSPy 归因已修正为 2023 |
+| [[300-AI工程与智能体/040-框架选型/LangGraph-vs-CrewAI]] | 三框架选型判据 | ⚠️ 选型结论需重写 |
+| [[300-AI工程与智能体/030-实战笔记/01-大模型基础与Prompt/01-LLM核心原理]] | Transformer、预训练-SFT-RLHF、模型对比 | ⚠️ 模型表需按 2026 重列 |
+| [[300-AI工程与智能体/030-实战笔记/01-大模型基础与Prompt/02-Prompt工程进阶]] | CRISPE 框架、注入防范、结构化 Prompt | ✅ 有效 |
+| [[300-AI工程与智能体/030-实战笔记/02-RAG检索增强生成/01-RAG架构与实战]] | Naive RAG、混合检索、Rerank、HyDE | ⚠️ Embedding 表需更新 |
+| [[300-AI工程与智能体/030-实战笔记/03-LangChain开发实战/01-LangChain核心组件]] | Model I/O / Retrieval / Chains / Memory | 🔴 **代码 API 全部已废弃** |
+| [[300-AI工程与智能体/020-DeerFlow课程包/README]] | ⭐ **全库最高价值资产**。21 天智能体工程训练体系 | ✅ 现行 |
 
 ---
 
@@ -61,21 +61,21 @@ updated: 2026-10-26
 
 | 文档 | 已核查出的问题 |
 |---|---|
-| [[090-归档-历史快照/Paper-List-2025]] | 0 个 arXiv 编号、0 位作者、0 条链接；"OpenAI Swarm" 被包装成论文标题（实为 GitHub 仓库） |
-| [[090-归档-历史快照/Paper-List-2026]] | 标题称"论文列表"，实为 0 篇论文；趋势锚点停在 2024 下半年 |
-| [[090-归档-历史快照/大厂落地/OpenAI-Operator]] | 含虚构"Assistants API v3"（该 API 已于 2026-08-26 关停） |
-| [[090-归档-历史快照/大厂落地/Google-Gemini-Eco]] | 含 2 个虚构产品名（Google Workspace Agents、Android Intent 扩展） |
-| [[090-归档-历史快照/大厂落地/Microsoft-Autonomous-Agents]] | 关键生态变更全缺（MAF 1.0 GA 2026-04-02） |
+| [[300-AI工程与智能体/090-归档-历史快照/Paper-List-2025]] | 0 个 arXiv 编号、0 位作者、0 条链接；"OpenAI Swarm" 被包装成论文标题（实为 GitHub 仓库） |
+| [[300-AI工程与智能体/090-归档-历史快照/Paper-List-2026]] | 标题称"论文列表"，实为 0 篇论文；趋势锚点停在 2024 下半年 |
+| [[300-AI工程与智能体/090-归档-历史快照/大厂落地/OpenAI-Operator]] | 含虚构"Assistants API v3"（该 API 已于 2026-08-26 关停） |
+| [[300-AI工程与智能体/090-归档-历史快照/大厂落地/Google-Gemini-Eco]] | 含 2 个虚构产品名（Google Workspace Agents、Android Intent 扩展） |
+| [[300-AI工程与智能体/090-归档-历史快照/大厂落地/Microsoft-Autonomous-Agents]] | 关键生态变更全缺（MAF 1.0 GA 2026-04-02） |
 
 ---
 
 ## 🔧 待修复清单
 
-- [ ] [[030-实战笔记/03-LangChain开发实战/01-LangChain核心组件]] —— 全部代码 API 已废弃，需重写为 LangChain 0.3+/1.0 或改用 LangGraph
-- [ ] [[030-实战笔记/01-大模型基础与Prompt/01-LLM核心原理]] —— 模型表按 2026-10 现状重列，删除虚假的"2026 视角"标注
-- [ ] [[030-实战笔记/02-RAG检索增强生成/01-RAG架构与实战]] —— Ada-002 → text-embedding-3；补"按客户隔离 vector store"的权限过滤；语料换成仿真语料
-- [ ] [[040-框架选型/LangGraph-vs-CrewAI]] —— 补 OpenAI Agents SDK / Microsoft Agent Framework / Google ADK；删"AutoGen 2.0"；说明 AutoGen/SK 已停更
-- [ ] [[010-基础理论/Prompt-Engineering-Advanced]] —— 补 DSPy 用 metric 自动优化 prompt 对客户 PoC 的用法
+- [ ] [[300-AI工程与智能体/030-实战笔记/03-LangChain开发实战/01-LangChain核心组件]] —— 全部代码 API 已废弃，需重写为 LangChain 0.3+/1.0 或改用 LangGraph
+- [ ] [[300-AI工程与智能体/030-实战笔记/01-大模型基础与Prompt/01-LLM核心原理]] —— 模型表按 2026-10 现状重列，删除虚假的"2026 视角"标注
+- [ ] [[300-AI工程与智能体/030-实战笔记/02-RAG检索增强生成/01-RAG架构与实战]] —— Ada-002 → text-embedding-3；补"按客户隔离 vector store"的权限过滤；语料换成仿真语料
+- [ ] [[300-AI工程与智能体/040-框架选型/LangGraph-vs-CrewAI]] —— 补 OpenAI Agents SDK / Microsoft Agent Framework / Google ADK；删"AutoGen 2.0"；说明 AutoGen/SK 已停更
+- [ ] [[300-AI工程与智能体/010-基础理论/Prompt-Engineering-Advanced]] —— 补 DSPy 用 metric 自动优化 prompt 对客户 PoC 的用法
 
 ---
 
