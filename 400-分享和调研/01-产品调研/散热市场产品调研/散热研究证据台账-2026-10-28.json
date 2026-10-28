@@ -1,0 +1,243 @@
+{
+  "title": "散热研究证据台账",
+  "as_of": "2026-10-28",
+  "scope": "中国车灯、板卡与散热结构件热设计及仿真业务",
+  "status": "公开研究完成；客户及实验验证未执行",
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "IDC",
+      "published_date": "2026-08-10",
+      "url": "https://www.idc.com/resource-center/blog/电子散热领跑、物理ai启航-中国cae市场的双重增/",
+      "access": "官网正文",
+      "claim": "2025电子散热仿真软件市场估算3.64亿元",
+      "limit": "二手研究估算的直接发布；无底层数据库，不确认份额及全部收入边界",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S02",
+      "publisher": "Siemens",
+      "published_date": null,
+      "url": "https://www.siemens.com/en-us/products/simcenter/fluids-thermal-simulation/floefd/",
+      "access": "官方检索文本",
+      "claim": "FLOEFD含LED及热分析能力",
+      "limit": "厂商能力说明，非本轮性能实测",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S03",
+      "publisher": "nTop",
+      "published_date": "2026-04-02",
+      "url": "https://www.ntop.com/resources/webinars/end-to-end-high-efficiency-heat-exchanger-design-with-integrated-cfd/",
+      "access": "官网正文",
+      "claim": "换热器工作流公开包含几何及CHT",
+      "limit": "未运行演示，不推断全部制造工艺适配",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S04",
+      "publisher": "云道智能",
+      "published_date": "2026-05-09",
+      "url": "https://www.ibe.cn/information/news/6848",
+      "access": "官网正文",
+      "claim": "发布支付终端散热优化案例",
+      "limit": "经加工厂商案例，无原始测量和独立复核",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S05",
+      "publisher": "Ansys",
+      "published_date": null,
+      "url": "https://innovationspace.ansys.com/certifications/courses/vehicle-lamp-cfd-simulation-with-fluent-abp/",
+      "access": "官方检索文本",
+      "claim": "存在车灯CFD实践课程",
+      "limit": "未进入课程或读取附件",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S06",
+      "publisher": "Ansys",
+      "published_date": null,
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/SimAI/v000/en/SimAI_ug/SimAI_ug/C_UG_SAI_data_upload.html",
+      "access": "官网正文",
+      "claim": "有训练测试分配及瞬态按设计划分说明",
+      "limit": "不证明我方模型准确性",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S07",
+      "publisher": "ASME",
+      "published_date": "2009（页面标R2021）",
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/standard-for-verification-and-validation-in-computational-fluid-dynamics-and-heat-transfer",
+      "access": "官方摘要",
+      "claim": "指定变量和验证点，纳入计算和实验不确定度",
+      "limit": "未购读全文，未声称合规验证已经完成",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S08",
+      "publisher": "HELLA",
+      "published_date": null,
+      "url": "https://www.hella.com/techworld/us/ti/Condensation-on-lamps/Condensation-on-lamps.jsp",
+      "access": "官网正文",
+      "claim": "凝露须区分具体情境",
+      "limit": "不代替整灯验收规范",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S09",
+      "publisher": "CNAS",
+      "published_date": null,
+      "url": "https://www.cnas.org.cn/cms_files/filemanager/328304128/attach/20248/73EC653D937E75C0E8DD0D8B8E3E4308.pdf",
+      "access": "官方检索文本",
+      "claim": "查询认可须检查附件能力范围和方法",
+      "limit": "未选择或验证具体实验室",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S10",
+      "publisher": "RTI",
+      "published_date": "1997",
+      "url": "https://www.rti.org/publication/look-rule-three",
+      "access": "作者机构摘要",
+      "claim": "独立试验零事件失败率上界随样本数变化",
+      "limit": "正文未读取，报告精确界限另行计算",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S11",
+      "publisher": "东山精密",
+      "published_date": null,
+      "url": "https://cn.dsbj.com/Cn/Index/pageView/catid/22.html",
+      "access": "官网正文",
+      "claim": "主营包括电子电路等，旧清单业务分类不符",
+      "limit": "企业自述不证明购买资格",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S12",
+      "publisher": "SimScale",
+      "published_date": null,
+      "url": "https://www.simscale.com/product/pricing/",
+      "access": "官网文本",
+      "claim": "免费学习及定制商业订阅与计算配额",
+      "limit": "非客户成交价，页面可更新",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S13",
+      "publisher": "Boyd",
+      "published_date": null,
+      "url": "https://www.boydcorp.com/about-boyd/boyd-capabilities.html",
+      "access": "官网正文",
+      "claim": "提供设计、样件及验证工程服务",
+      "limit": "未获合同，不证明免费",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    },
+    {
+      "id": "S14",
+      "publisher": "SABIC",
+      "published_date": null,
+      "url": "https://materialfinder.sabic-specialties.com/document-download/35797fc7-7fd4-ef11-b914-f08d251f2d7d",
+      "access": "PDF文本第5至7页",
+      "claim": "填料取向及成型件方向性导热影响材料选择",
+      "limit": "非我方材料测量，不引用厂商降本承诺",
+      "accessed_date": "2026-10-28",
+      "independent_reviewer": null
+    }
+  ],
+  "internal_workbook_audit": {
+    "path": "C:/Users/liuguoliang/Desktop/MyDocs/400-分享和调研/01-产品调研/散热市场产品调研/FEMAI散热器客户拜访清单（精简版）.xlsx",
+    "sheet": "客户精简清单",
+    "rule": "排除表头；B列企业名非空；不按max_row计数；未合并集团及子公司",
+    "company_rows": 57,
+    "range": "A2:J58",
+    "priority_counts": {
+      "最高优": 7,
+      "优": 14,
+      "中级": 10,
+      "低级": 24,
+      "待定": 2
+    },
+    "contact_sheet_read": false,
+    "external_verification_scope": "仅东山精密主营分类与S11独立交叉核对；其他企业为表内一致性审查",
+    "issues": [
+      {
+        "row": 52,
+        "issue": "原表主营分类与官方业务介绍冲突",
+        "source": "S11"
+      },
+      {
+        "row": 4,
+        "issue": "传统仿真能力与AI状态混写，AI状态须核实"
+      },
+      {
+        "row": 6,
+        "issue": "已有多类CAE流程线索，不能默认无工具"
+      },
+      {
+        "row": 58,
+        "issue": "已用AI与需求证并列，状态应未知"
+      }
+    ]
+  },
+  "calculations": {
+    "zero_failure_bound": {
+      "formula": "1 - 0.05 ** (1 / n)",
+      "confidence": "95%单侧",
+      "assumptions": "独立同分布且代表目标任务；相关任务不能充当独立重复",
+      "results": [
+        {
+          "n": 3,
+          "upper": 0.6315968501359612
+        },
+        {
+          "n": 12,
+          "upper": 0.22092219194555585
+        },
+        {
+          "n": 30,
+          "upper": 0.09503385285530419
+        }
+      ]
+    },
+    "end_to_end_speedup": {
+      "formula": "1 / ((1-f) + f/s)",
+      "examples": [
+        {
+          "f": 0.2,
+          "s": 10,
+          "speedup": 1.2195121951219512
+        },
+        {
+          "f": 0.8,
+          "s": 10,
+          "speedup": 3.571428571428571
+        }
+      ],
+      "status": "示例输入，非客户实际数据"
+    }
+  },
+  "pending": [
+    "客户访谈与现场观察",
+    "目标招聘及招采样本库",
+    "原始材料牌号与模型",
+    "客户预算合同付款",
+    "物理测试与AI盲测",
+    "统计扩样及跨客户迁移"
+  ],
+  "decision": "推进单个受控客户试点的准备；尚不支持规模化产品投资或普遍性能承诺"
+}
